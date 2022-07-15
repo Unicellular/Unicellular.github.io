@@ -23,9 +23,12 @@ twitter_username: Rexable
 github_username:  Unicellular
 
 # Build settings
+asciidoc: {}
+asciidoctor: {}
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-asciidoc
   - jekyll-feed
 
 # Exclude from processing.
